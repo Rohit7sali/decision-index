@@ -1,0 +1,3 @@
+| Model | Edition | Decision Index | Complete results | Engine / commit | Hardware | Declared limits |
+|---|---|---:|---|---|---|---|
+| Lumma-fev-27B | 0.3 | 57.15 | [results](https://huggingface.co/datasets/rohitsali/decision-index-results/tree/main/runs/lumma-fev-27b-compact) | stock `http` engine at f5a6e4f, served with lumma-fev 0.2.0; suite rebuilt at f8552a1 | 2x NVIDIA H100 80GB (vast.ai) | inputs over 8,192 tokens refused (HTTP 422), not truncated; 30 scored requests ended as errors (ToolRet 2, API-Bank 2, POP909-CL 25, HLE 1) |
